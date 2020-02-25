@@ -6,7 +6,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepushPatch": "npm run build && npm run test",
+    "prepushPatch": "npm run build",
     "pushPatch": "npm version --no-commit-hooks patch && git push && npm publish"
   },
   "repository": {
