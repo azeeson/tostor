@@ -1,0 +1,26 @@
+{
+  "name": "tostor",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepushPatch": "npm run build && npm run test",
+    "pushPatch": "npm version --no-commit-hooks patch && git push && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azeeson/tostor.git"
+  },
+  "author": "Alexander Medkov <azeeson@gmail.com> (https://twitter.com/azeeson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azeeson/tostor/issues"
+  },
+  "homepage": "https://github.com/azeeson/tostor#readme",
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}

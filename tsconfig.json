@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": ["es2017", "es7", "es6", "dom"],
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": true,
+        "removeComments": false,
+        "outDir": "lib",
+        "strict": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": false
+    },
+    "include": ["src"],
+    "exclude": [
+        "node_modules",
+        "lib"
+    ]
+}
